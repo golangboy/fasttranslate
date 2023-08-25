@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "FastTranslate",
+  "author": "golangboy",
+  "version": "1.0",
+  "description": "Translate chinese to english quickly",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
